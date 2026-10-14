@@ -13,5 +13,7 @@ def conectar():
         user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD")
     )
-
+    print("Conexão com o banco de dados estabelecida com sucesso!")
     return conexao
+
+
